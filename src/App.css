@@ -493,9 +493,9 @@ a, button, input, textarea, select, [data-cursor-hover],
 
   .sidebar {
     width: 85%; /* Slightly wider for very small screens */
-    max-width: 260px;
+    max-width: 200px;
     max-height: 65vh; /* Further reduce height for smaller screens */
-    top: 15px; /* Adjust top spacing */
+    /* top: px; Adjust top spacing */
   }
 
   .sidebar-header {
@@ -520,6 +520,48 @@ a, button, input, textarea, select, [data-cursor-hover],
 }
 
 
+@media (max-width: 396px) {
+  .sidebar-container {
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .sidebar-toggle {
+    bottom: 10px;
+    left: 10px;
+    padding: 8px 12px;
+    font-size: 12px;
+    border-radius: 16px;
+    letter-spacing: 0.5px;
+  }
+
+  .sidebar {
+    width: 90%;
+    max-width: 170px;
+    max-height: 60vh;
+    top: 150px;
+  }
+
+  .sidebar-header {
+    padding: 16px 12px;
+    font-size: 16px;
+  }
+
+  .social-link {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+
+  .social-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .social-text {
+    font-size: 14px;
+  }
+}
 
 
 
@@ -1910,7 +1952,7 @@ a, button, input, textarea, select, [data-cursor-hover],
 @media (max-width: 480px) {
   .hero {
     padding-top: 100px;
-    min-height: 85vh;
+    min-height: 100vh;
   }
 
   .hero-content {
@@ -1980,6 +2022,10 @@ a, button, input, textarea, select, [data-cursor-hover],
 @media (max-width: 360px) {
   .hero h1 {
     font-size: 1.8rem;
+  
+    /* padding-top: 100px; */
+    /* min-height: 100vh; */
+  
   }
 
   .hero .subtitle {
