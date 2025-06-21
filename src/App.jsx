@@ -231,7 +231,7 @@ const App = () => {
               Contact Me
             </a>
             <a
-              href="https://leetcode.com/gautam-yedla"
+              href="https://leetcode.com/u/Gautam_Yedla/"
               className="hero-link"
               target="_blank"
               rel="noopener noreferrer"
@@ -240,7 +240,7 @@ const App = () => {
               🧮 LeetCode
             </a>
             <a
-              href="./resume.pdf"
+              href="https://drive.google.com/file/d/1yEYF9XbDQgvQ_HBojn5wJVtfOlQsXTAE/view?usp=sharing"
               className="hero-link"
               target="_blank"
               title="Download Resume"
@@ -284,7 +284,7 @@ const App = () => {
                   </div>
                   <div className="stat-item">
                     <div className="stat-label">Interests</div>
-                    <div className="stat-value">Open Source</div>
+                    <div className="stat-value">AI & ML </div>
                   </div>
                   <div className="stat-item">
                     <div className="stat-label">Goal</div>
@@ -303,15 +303,14 @@ const App = () => {
                   solve real-world problems through code.
                 </p>
                 <p>
-                  Currently maintaining a strong academic record while actively
+                  Currently maintaining good academic record while actively
                   working on personal projects and contributing to open-source
                   initiatives. I believe in continuous learning and staying
                   updated with the latest industry trends and technologies.
                 </p>
                 <p>
                   When I'm not coding, you'll find me exploring new frameworks,
-                  participating in coding competitions, or mentoring junior
-                  students in programming fundamentals.
+                  participating in coding competitions & Hackathons.
                 </p>
               </div>
               <div className="skills-section">
@@ -328,8 +327,8 @@ const App = () => {
                       <li>Python</li>
                       <li>Java</li>
                       <li>JavaScript</li>
-                      <li>C/C++</li>
                       <li>SQL</li>
+                      <li>C/C++</li>
                     </ul>
                   </div>
                   <div className="skill-category">
@@ -338,8 +337,8 @@ const App = () => {
                       <li>React.js</li>
                       <li>Node.js</li>
                       <li>Express.js</li>
-                      <li>HTML5 &amp; CSS3</li>
                       <li>MongoDB</li>
+                      <li>HTML &amp; CSS</li>
                     </ul>
                   </div>
                   <div className="skill-category">
@@ -347,7 +346,7 @@ const App = () => {
                     <ul className="skill-list">
                       <li>Git &amp; GitHub</li>
                       <li>Docker</li>
-                      <li>AWS</li>
+                      <li>Jenkins</li>
                       <li>Linux</li>
                       <li>VS Code</li>
                     </ul>

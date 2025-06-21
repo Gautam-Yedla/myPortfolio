@@ -3,32 +3,32 @@ import React from "react";
 
 const experiences = [
   {
-    date: "2024 - Present",
-    role: "Full-Stack Developer",
-    company: "InnovateX Solutions",
+    date: "JANUARY 2025 - APRIL 2025",
+    role: "Software Developer Intern",
+    company: "Kovalty Technologies LLP",
     description:
-      "Building scalable web applications and leading a team of junior developers. Focused on React, Node.js, and cloud deployment.",
+      "Worked and developed the HR Portal and company website from scratch using React.js, HTML, CSS, and JavaScript. Implemented responsive UI with Material UI and Tailwind CSS, integrated RESTful APIs, and managed version control with Git and GitHub.",
   },
   {
     date: "2023 - 2024",
-    role: "Software Engineering Intern",
-    company: "TechBridge Inc.",
+    role: "Machine Learning Intern",
+    company: "Slash Mark IT Startup",
     description:
-      "Developed internal tools for data visualization and automation. Improved team productivity by 20% through process automation.",
+      "Developed a Python-based task manager with NLP-driven recommendations, increasing task efficiency by 20%, built an XGBoost model for home price prediction with 15% improved accuracy, and achieved 97% accuracy on digit classification using MNIST and deep learning techniques.",
   },
   {
-    date: "2021 - 2023",
-    role: "Computer Science Student",
-    company: "XYZ University",
+    date: " MARCH 2024 - AUGUST 2024 ",
+    role: "Full Stack Developer Intern",
+    company: "I & T Lab's",
     description:
-      "Completed coursework in algorithms, data structures, and machine learning. Participated in coding competitions and open-source projects.",
+      "Directed a team of 14 in developing a scalable e-commerce salon platform, implementing secure authentication, payment integration, and achieving a 25% backend performance boost through database optimization.",
   },
   {
-    date: "2020 - 2021",
-    role: "Open Source Contributor",
-    company: "Various Projects",
+    date: "2022 - 2026",
+    role: "Computer Science & Engineering Student",
+    company: "Andhra University College of Engineering",
     description:
-      "Contributed to several open-source repositories, focusing on bug fixes, documentation, and feature enhancements.",
+      "CGPA - 8.01",
   },
 ];
 

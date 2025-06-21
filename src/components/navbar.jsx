@@ -125,7 +125,7 @@ const Navbar = ({
           <div className="sidebar-header">SOCIAL LINKS</div>
           <div className="social-links">
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/gautamyedla/"
               className="social-link"
               target="_blank"
               rel="noopener"
@@ -136,7 +136,7 @@ const Navbar = ({
               <span className="social-text">LinkedIn</span>
             </a>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/gautam-yedla"
               className="social-link"
               target="_blank"
               rel="noopener"
@@ -147,7 +147,7 @@ const Navbar = ({
               <span className="social-text">GitHub</span>
             </a>
             <a
-              href="https://leetcode.com/yourusername"
+              href="https://leetcode.com/u/Gautam_Yedla/"
               className="social-link"
               target="_blank"
               rel="noopener"
@@ -157,7 +157,7 @@ const Navbar = ({
               </svg>
               <span className="social-text">LeetCode</span>
             </a>
-            <a href="mailto:your.email@example.com" className="social-link">
+            <a href="mailto:gautamyedla@gmail.com" className="social-link">
               <svg className="social-icon" viewBox="0 0 24 24">
                 <path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z" />
               </svg>
@@ -172,9 +172,9 @@ const Navbar = ({
               <svg className="social-icon" viewBox="0 0 24 24">
                 <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
               </svg>
-              <span className="social-text">Twitter</span>
+              <span className="social-text">Instagram</span>
             </a>
-            <a
+            {/* <a
               href="https://yourportfolio.com"
               className="social-link"
               target="_blank"
@@ -184,7 +184,7 @@ const Navbar = ({
                 <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1 17.93c-3.94-.494-7-3.858-7-7.93s3.06-7.436 7-7.93v15.86zm2-15.86c3.94.494 7 3.858 7 7.93s-3.06 7.436-7 7.93V4.07z" />
               </svg>
               <span className="social-text">Portfolio</span>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

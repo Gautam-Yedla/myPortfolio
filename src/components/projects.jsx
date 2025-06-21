@@ -7,72 +7,60 @@ import PioneerDigitalImg from "../assets/pioneer-digital.webp";
 
 const projects = [
 	{
-		title: "Project_01",
-		subtitle: "",
+		title: "HR Portal (EMS)",
+		subtitle: " A full-stack employee management system with secure authentication ",
 		description:
-			"Deeply understand advanced concepts, practice with real-world exercises, build expertise with hands-on projects to boost your career.",
+			"Built using React.js, Node.js, MongoDB, and JWT, this HR portal streamlines employee data management, leave tracking, and payroll processing. Features include role-based access control, secure login, and a user-friendly dashboard optimized for performance and scalability.",
 		image: EazyGradImg,
-		link: "",
+		link: "https://github.com/Gautam-Yedla/hr_portal.git",
 		skills: [
-			"react.js",
-			"express.js",
-			"node.js",
-			"swiper.js",
-			"mongoDB",
-			"mongoose",
-			"css",
-			"javascript",
-			"figma",
+			"React",
+			"Node",
+			"MogoDB",
+			"JWT",
 		],
 		color: "#1788ae",
 	},
 	{
-		title: "Project_02",
-		subtitle: "",
+		title: "Amazon Sentiment Analyzer",
+		subtitle: " A sentiment analysis web app for Amazon product reviews ",
 		description:
-			"Being a lead developer, revamped the site to a highly responsive, and interactive website. Created new features and pages. Worked as a team with product manager and ux designer.",
+			"Developed a responsive web application to analyze product sentiment using Python, React.js, and Node.js. Integrated CI/CD with GitHub Actions, Docker, and Jenkins for automated deployment.",
 		image: EazyGradImg,
-		link: "#",
+		link: "https://github.com/Gautam-Yedla/amazon-sentiment-analyzer.git",
 		skills: [
-			"react.js",
-			"express.js",
-			"node.js",
-			"swiper.js",
-			"mongoDB",
-			"mongoose",
-			"css",
-			"javascript",
-			"figma",
+			"Python",
+			"React",
+			"Node",
+			"Github Actions",
+			"Docker",
+			"Jenkins",
 		],
 		color: "#ffe578",
 	},
 	{
-		title: "Project_03",
-		subtitle: "",
+		title: "ADFilms",
+		subtitle: " Portfolio website for a professional Wedding & AD Commercial studio ",
 		description:
-			"HariGurus is a one-stop-shop for all Hindu religious, customs and traditional requirements. Built the complete site from scratch.",
+			"Built a responsive and interactive website for a photography client specializing in weddings and ad commercials. Developed using React.js, Node.js, Express.js, and MongoDB to showcase their work and help clients explore services with ease.",
 		image: EazyGradImg,
-		link: "#",
+		link: "https://github.com/Gautam-Yedla/ADFilms.git",
 		skills: [
-			"react.js",
-			"express.js",
-			"node.js",
-			"swiper.js",
+			"React",
+			"Node",
+			"Tailwind CSS",
 			"mongoDB",
-			"mongoose",
-			"css",
-			"javascript",
-			"figma",
+			
 		],
 		color: "#fc815c",
 	},
 	{
-		title: "Project_04",
-		subtitle: "",
+		title: "Image-Classification-Using-CN",
+		subtitle: " High-accuracy image classifier using PyTorch and CIFAR-100 ",
 		description:
-			"Being a lead developer, revamped the site to a highly responsive, and interactive website. Created new features and pages. Worked as a team with product manager and ux designer.",
+		"Built a deep learning model using PyTorch to classify images from the CIFAR-100 dataset. Achieved over 80% test accuracy using a ResNet-inspired architecture with techniques like residual connections, dropout, and data augmentation.",
 		image: EazyGradImg,
-		link: "#",
+		link: "https://github.com/Gautam-Yedla/Image-Classification-Using-CNN.git",
 		skills: [
 			"react.js",
 			"express.js",
@@ -87,22 +75,16 @@ const projects = [
 		color: "#47afa1",
 	},
 	{
-		title: "Project_05",
-		subtitle: "",
+		title: "Salonify",
+		subtitle: " Responsive salon appointment and service booking platform ",
 		description:
-			"One of the featured site while working with TheBrandWick.com (agency). Worked as a frontend developer to make the site user-interactive and responsive.",
+			"Designed and developed a fully responsive salon website from scratch using HTML, CSS, and JavaScript, focusing on seamless booking, service management, and user engagement.",
 		image: EazyGradImg,
-		link: "#",
+		link: "https://github.com/Gautam-Yedla/hair-salon-html-template_MAIN.git",
 		skills: [
-			"react.js",
-			"express.js",
-			"node.js",
-			"swiper.js",
-			"mongoDB",
-			"mongoose",
-			"css",
-			"javascript",
-			"figma",
+			"HTML",
+			"CSS",
+			"JavaScript",
 		],
 		color: "#fc815c",
 	},
@@ -182,7 +164,7 @@ const Projects = () => (
 					<ul className="project-skills">
 						{project.skills.map((skill) => (
 							<li className="project-skill" key={skill}>
-								#{skill}
+								{skill}
 							</li>
 						))}
 					</ul>
