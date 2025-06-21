@@ -476,6 +476,53 @@ a, button, input, textarea, select, [data-cursor-hover],
   }
 }
 
+@media (max-width: 560px) {
+  .sidebar-container {
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .sidebar-toggle {
+    position: fixed; /* Keep button fixed at bottom-left on all screens */
+    bottom: 25px;
+    left: 20px;
+    padding: 14px 16px;
+    font-size: 15px;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 16px var(--shadow-color);
+    z-index: 1002; /* Higher than sidebar for visibility */
+  }
+
+  .sidebar {
+    width: 75%; /* Reduced width for smaller screens */
+    max-width: 220px; /* Cap width for smaller screens */
+    max-height: 70vh; /* Limit height to keep top content visible */
+    top: 100px; /* Adjust top spacing */
+  }
+
+  .sidebar-header {
+    padding: 22px 18px;
+    font-size: 19px;
+  }
+
+  .social-link {
+    padding: 14px 18px;
+    font-size: 16px;
+  }
+
+  .social-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+  }
+
+  .social-text {
+    font-size: 16px;
+  }
+}
+
+
 @media (max-width: 480px) {
   .sidebar-container {
     bottom: 15px;
@@ -484,9 +531,9 @@ a, button, input, textarea, select, [data-cursor-hover],
 
   .sidebar-toggle {
     position: fixed; /* Reinforce fixed position */
-    bottom: 15px;
+    bottom: 30px;
     left: 15px;
-    padding: 10px 14px;
+    padding: 15px 18px;
     font-size: 13px;
     border-radius: 20px; /* Slightly smaller radius for smaller screens */
   }
@@ -527,13 +574,18 @@ a, button, input, textarea, select, [data-cursor-hover],
   }
 
   .sidebar-toggle {
-    bottom: 10px;
-    left: 10px;
-    padding: 8px 12px;
-    font-size: 12px;
-    border-radius: 16px;
-    letter-spacing: 0.5px;
+    position: fixed; /* Keep button fixed at bottom-left on all screens */
+    bottom: 30px;
+    left: 20px;
+    writing-mode: horizontal-tb;
+    padding: 16px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 16px var(--shadow-color);
+    z-index: 1002; /* Higher than sidebar for visibility */
   }
+  
 
   .sidebar {
     width: 90%;
