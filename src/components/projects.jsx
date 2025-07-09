@@ -1,9 +1,9 @@
 import React from "react";
-import ProCodrrImg from "../assets/ProCodrr.webp";
 import EazyGradImg from "../assets/eazygrad.webp";
-import HarigurusImg from "../assets/harigurus.webp";
-import WebDevEnglishImg from "../assets/web-dev-english.webp";
-import PioneerDigitalImg from "../assets/pioneer-digital.webp";
+import Salonify from "../assets/Salonify.png";
+import Amazon_Sentiment_Analyzer from "../assets/Amazon_Sentiment_Analyzer.png";
+import ADFilms from "../assets/ADFilms.png";
+import HR_Portal from "../assets/HR_Portal.png";
 
 const projects = [
 	{
@@ -11,7 +11,7 @@ const projects = [
 		subtitle: " A full-stack employee management system with secure authentication ",
 		description:
 			"Built using React.js, Node.js, MongoDB, and JWT, this HR portal streamlines employee data management, leave tracking, and payroll processing. Features include role-based access control, secure login, and a user-friendly dashboard optimized for performance and scalability.",
-		image: EazyGradImg,
+		image: HR_Portal,
 		link: "https://github.com/Gautam-Yedla/hr_portal.git",
 		skills: [
 			"React",
@@ -26,8 +26,8 @@ const projects = [
 		subtitle: " A sentiment analysis web app for Amazon product reviews ",
 		description:
 			"Developed a responsive web application to analyze product sentiment using Python, React.js, and Node.js. Integrated CI/CD with GitHub Actions, Docker, and Jenkins for automated deployment.",
-		image: EazyGradImg,
-		link: "https://github.com/Gautam-Yedla/amazon-sentiment-analyzer.git",
+		image: Amazon_Sentiment_Analyzer,
+		link: "https://amazon-sentiment-analyzer.vercel.app/",
 		skills: [
 			"Python",
 			"React",
@@ -43,7 +43,7 @@ const projects = [
 		subtitle: " Portfolio website for a professional Wedding & AD Commercial studio ",
 		description:
 			"Built a responsive and interactive website for a photography client specializing in weddings and ad commercials. Developed using React.js, Node.js, Express.js, and MongoDB to showcase their work and help clients explore services with ease.",
-		image: EazyGradImg,
+		image: ADFilms,
 		link: "https://github.com/Gautam-Yedla/ADFilms.git",
 		skills: [
 			"React",
@@ -55,7 +55,7 @@ const projects = [
 		color: "#fc815c",
 	},
 	{
-		title: "Image-Classification-Using-CN",
+		title: "Image-Classification-Using-CNN",
 		subtitle: " High-accuracy image classifier using PyTorch and CIFAR-100 ",
 		description:
 		"Built a deep learning model using PyTorch to classify images from the CIFAR-100 dataset. Achieved over 80% test accuracy using a ResNet-inspired architecture with techniques like residual connections, dropout, and data augmentation.",
@@ -79,7 +79,7 @@ const projects = [
 		subtitle: " Responsive salon appointment and service booking platform ",
 		description:
 			"Designed and developed a fully responsive salon website from scratch using HTML, CSS, and JavaScript, focusing on seamless booking, service management, and user engagement.",
-		image: EazyGradImg,
+		image: Salonify,
 		link: "https://github.com/Gautam-Yedla/hair-salon-html-template_MAIN.git",
 		skills: [
 			"HTML",
