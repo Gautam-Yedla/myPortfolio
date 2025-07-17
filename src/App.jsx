@@ -240,7 +240,7 @@ const App = () => {
               🧮 LeetCode
             </a>
             <a
-              href="https://drive.google.com/file/d/1yEYF9XbDQgvQ_HBojn5wJVtfOlQsXTAE/view?usp=sharing"
+              href="https://drive.google.com/file/d/1gRhvAicPtlh1DsjnQ7Msk4AT5bnb-LLt/view?usp=sharing"
               className="hero-link"
               target="_blank"
               title="Download Resume"
